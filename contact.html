@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Indie+Flower|Merriweather+Sans|Patua+One" rel="stylesheet">
+
+</head>
+
+<!--Making Header and Nav Links-->
+<header>
+        <nav class="navbar navbar-light bg-light shadow pt-0 pb-0">
+            <span class="navbar-brand h1 navbar-dark bg-info text-white p-4 mt-0 mb-0 ml-5">
+                Carlos Herrera-Hidalgo
+            </span>
+    
+            <ul class="nav justify-content-end ml-5">
+                <li class="nav-item">
+                    <a class="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-left text-secondary" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+
+    <div class="container-fluid" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');
+        height: 100vh;">
+
+        <div class="row">
+            <div class="col-lg-11">
+                <!--Can also use transparent for background color to make the background of the jumbotron completely transparent-->
+                <!--RGBA is assigning an alpha color and switching between different degrees of transparency-->
+                <div class="jumbotron float-right shadow" style="background-color: rgba(0,0,0,0.3); height: 80%; width: 38%; margin-top: 35px; margin-bottom: 35px;">
+                    <!--About Me title row-->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="ml-3">
+                                Contact
+                            </h1>
+                        </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form>
+                                <div class="name-form-area">
+                                    <label for="name-form-area">Name</label>
+                                    <input type="text" class="form-control" placeholder="John Smith">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="card fixed-bottom border-info" style="border-top: 5px solid";>
+        <div class="bg-secondary">
+            <p class="text-white text-center mt-2">
+                © Copyright
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+</html>

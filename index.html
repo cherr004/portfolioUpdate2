@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Profile</title>
+
+    <!--CSS Reset Link-->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <!--Bootstrap CSS Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <!--Google Font Style-->
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Indie+Flower|Merriweather+Sans|Patua+One" rel="stylesheet">
+
+</head>
+<!--Making Header and Nav Links-->
+<header>
+    <nav class="navbar navbar-light bg-light shadow pt-0 pb-0">
+        <span class="navbar-brand h1 navbar-dark bg-info text-white p-4 mt-0 mb-0 ml-5" style="font-family: 'Anton', sans-serif; text-align: right;">
+            Carlos Herrera-Hidalgo
+        </span>
+
+        <ul class="nav justify-content-end ml-5">
+            <li class="nav-item">
+                <a class="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border-left text-secondary" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <!--making parent container and background image-->
+    <div class="container-fluid" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');
+    height: 100vh;">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <!--Can also use transparent for background color to make the background of the jumbotron completely transparent-->
+                <!--RGBA is assigning an alpha color and switching between different degrees of transparency-->
+                <!--Transparency doesn't really show up because it's on a white background. But, keep RGBA for reference-->
+                <div class="jumbotron float-right" style="background-color: rgba(0,0,0,0.3); margin-top: 25px; width: 50%; height: 81%;">
+                    <!--About Me title row-->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="ml-3">
+                                About Me
+                            </h1>
+                        </div>
+                    </div>
+                    <!--hr is a way to break blocks to different lines and adding a line break that looks like a bottom border-->
+                    <hr class="my-4">
+
+                    <!--Creating the pic and text row-->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img id="bioPic" src="assets/images/bioPic.png"
+                                class="float-left img-responsive ml-3 mr-4 mb-2">
+                            <p class="text-justify" style="color:white;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem est iusto qui tempora labore quia, perspiciatis magni
+                                deserunt dolorum atque molestiae consequatur! Possimus ratione totam et voluptatibus consectetur,
+                                eligendi nobis?
+                            </p>
+
+                            <p class="text-justify" style="color: white;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, inventore sunt perspiciatis architecto consequuntur alias
+                                cumque eum necessitatibus deleniti hic voluptas asperiores natus optio aliquid? Cupiditate
+                                quibusdam numquam sequi ab.
+                            </p>
+
+                            <p class="text-justify" style="color: white;">
+                                    <a href="https://www.linkedin.com/in/carlos-fernando-herrera-hidalgo-69959823/">
+                                My Linkedin Link
+                            </p>
+
+                            <p class="text-justify" style="color: white;">
+                                    <a href="https://github.com/cherr004">
+                                My Github Link
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <!--Created footer and border-->
+    <div class="card fixed-bottom border-info" style="border-top: 5px solid;">
+        <div class="bg-secondary">
+            <p class="text-white text-center mt-2">
+                © Copyright
+            </p>
+        </div>
+    </div>
+</footer>
+
+</html>
